@@ -11,18 +11,21 @@ public class Kurs {
 		return kupovni;
 	}
 	public void setKupovni(double kupovni) {
+		if(kupovni>0)
 		this.kupovni = kupovni;
 	}
 	public double getProdajni() {
 		return prodajni;
 	}
 	public void setProdajni(double prodajni) {
+		if(prodajni>0)
 		this.prodajni = prodajni;
 	}
 	public double getSrednji() {
 		return srednji;
 	}
 	public void setSrednji(double srednji) {
+		if(srednji>0)
 		this.srednji = srednji;
 	}
 	
@@ -30,6 +33,7 @@ public class Kurs {
 		return datum;
 	}
 	public void setDatum(GregorianCalendar datum) {
+		if(datum!=null)
 		this.datum = datum;
 	}
 	@Override

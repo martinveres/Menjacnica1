@@ -11,19 +11,29 @@ public class Valute {
 		return ime;
 	}
 	public void setIme(String ime) {
+		if(ime!=null)
 		this.ime = ime;
 	}
 	public String getSkracenica() {
 		return skracenica;
 	}
 	public void setSkracenica(String skracenica) {
+		if(skracenica!=null)
 		this.skracenica = skracenica;
 	}
 	public Kurs[] getKursevi() {
 		return kursevi;
 	}
-	public void setKurs(Kurs[] kurs, int brojKurseva) {
+	public void setKursevi(Kurs[] kurs, int brojKurseva) {
+		if(kurs!=null)
 		this.kursevi = kurs;
+		this.brojKurseva = brojKurseva;
+	}
+	public int getBrojKurseva() {
+		return brojKurseva;
+	}
+	public void setBrojKurseva(int brojKurseva) {
+		if(brojKurseva>0)
 		this.brojKurseva = brojKurseva;
 	}
 	@Override
