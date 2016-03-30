@@ -36,6 +36,7 @@ public class Kurs {
 		if(datum!=null)
 		this.datum = datum;
 	}
+	
 	@Override
 	public String toString() {
 		return "" + datum.get(GregorianCalendar.YEAR) + " " +   datum.get(GregorianCalendar.MONTH) + " "
