@@ -10,16 +10,9 @@ public class Menjacnica implements MenjacnicaInterfejs {
 
 	private LinkedList<Kurs> kursevi = new LinkedList<Kurs>();
 	
-
-
 	@Override
 	public void dodajKursZaNekiDan(Kurs kurs) {
-
 		kursevi.add(kurs);
-
-		
-
-		
 	}
 
 	@Override
@@ -44,8 +37,5 @@ public class Menjacnica implements MenjacnicaInterfejs {
 		return null;
 	
 		}
-
-
-
 		
 }
