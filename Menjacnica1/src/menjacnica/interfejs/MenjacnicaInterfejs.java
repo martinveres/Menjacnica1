@@ -6,6 +6,6 @@ import menjacnica.kurs.Kurs;
 
 public interface MenjacnicaInterfejs {
 	public void dodajKursZaNekiDan(Kurs kurs);
-	public void obrisiKursZaNekiDan(GregorianCalendar dan);
-	public Kurs vratiKursZaNekiDan(GregorianCalendar dan);
+	public void obrisiKursZaNekiDan(Kurs dan);
+	public Kurs vratiKursZaNekiDan(Kurs dan);
 }

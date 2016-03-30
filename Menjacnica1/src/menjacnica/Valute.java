@@ -1,5 +1,7 @@
 package menjacnica;
 
+import java.util.GregorianCalendar;
+
 import menjacnica.kurs.Kurs;
 
 public class Valute {
@@ -36,6 +38,11 @@ public class Valute {
 		if(brojKurseva>0)
 		this.brojKurseva = brojKurseva;
 	}
+	public void dodajKurs(Kurs kurs) {
+		kursevi[brojKurseva] = kurs;
+		brojKurseva++;
+	}
+	
 	@Override
 	public String toString() {
 		
